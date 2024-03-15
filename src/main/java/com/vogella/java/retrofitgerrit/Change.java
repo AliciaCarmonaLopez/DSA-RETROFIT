@@ -3,6 +3,8 @@ package com.vogella.java.retrofitgerrit;
 public class Change {
     String subject;
 
+    public String branch;
+
     public String getSubject() {
         return subject;
     }
